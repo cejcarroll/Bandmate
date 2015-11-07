@@ -1,0 +1,25 @@
+body 
+{
+	margin: 0; 
+	padding-left: 10%; 
+	font-size: 90%; 
+	font-family: 'Montserrat', sans-serif;
+	color: #1B2630; 
+	background-image: url('https://images.unsplash.com/5/unsplash-kitsune-4.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&s=44f8f16e90de243c06ff99a8353ba91f'); 
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a:link {
+    color: #FF5050;
+}
+/* mouse over link */
+a:hover {
+    color: #D6D840;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
