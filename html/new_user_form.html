@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--signup -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Main Page">
+    <meta name="author" content="YHack Squaf">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Bandmate</title>
+
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet"> <!--bootstrap hello -->
+
+    <link href="home.css" rel="stylesheet"> <!--eventually this will exist -->
+
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Bandmate</h3> <!-- if we get a logo -->
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="./main.html">Home</a></li>
+                  <li class="active"><a href="#">Sign Up</a></li>
+                  <li><a href="#">Login</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Sign up</h1>
+            <p class="lead">Define your style.</p>
+            <p class="lead">Help our algorithms get a better sense of your musical tastes. Give us a few details.</p>
+          </div>
+          <div>
+          <form action="./logged_in_home.html"> <!--idk what to put here yo, for now next html page-->
+          Genre:<br>
+          <select name="genres">
+            <option value="rock">Rock</option>
+            <option value="pop">Pop</option>
+            <option value="alt">Alternative</option>
+            <option value="jazz">Jazz</option>
+            <option value="country">Country</option>
+            <option value="classical">Classical</option>
+            <option value="folk">Folk</option>
+          </select>
+          <br> <br>
+          Anything you want to add?<br>
+          <input type="text" name="qual_genre" value="Ska is my jam">
+          <br>
+          <br>
+          Instrument:<br> <!--for now a small subset of options -->
+          <ul>
+             <li><label for="chk1"><input type="checkbox" name="chk1" id="chk1">Voice</label></li>
+             <li><label for="chk2"><input type="checkbox" name="chk2" id="chk2">Guitar</label></li>
+             <li><label for="chk3"><input type="checkbox" name="chk3" id="chk3">Piano</label></li>
+             <li><label for="chk4"><input type="checkbox" name="chk4" id="chk4">Drums</label></li>
+             <li><label for="chk5"><input type="checkbox" name="chk5" id="chk5">Bass</label></li>
+             <li><label for="chk6"><input type="checkbox" name="chk6" id="chk6">Ukulele</label></li>
+             <li><label for="chk7"><input type="checkbox" name="chk7" id="chk7">Violin</label></li>
+          </ul>
+          Top 3 Favorite Musical Spirit Animals:<br>
+          1)
+          <input type="text" name="first_artist" value="Coldplay">
+          <br>
+          2)
+          <input type="text" name="second_artist" value="Adele">
+          <br>
+          3)
+          <input type="text" name="third_artist" value="Hozier">
+          <br>
+          <input type="submit" value="Submit">
+          </form>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Homepage for <a href="https://github.com/cejcarroll/Bandmate" type="_blank">Bandmate</a>, by the YHack Squad</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>
