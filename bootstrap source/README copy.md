@@ -1,2 +1,0 @@
-# Bandmate
-Create your sound.
