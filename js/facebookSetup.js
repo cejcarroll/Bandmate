@@ -8,14 +8,15 @@
 // <div id="status"></div>
 // also check the javascript console for the data returned by the server.
 
-// to logout, call fbLogout(callback) with some callback function that takes a response parameter.
+// to logout (of the app and facebook), call fbLogout(callback) with some callback function that takes a response parameter.
 
 // to find permissions granted, call fbPermissions(callback) with some callback function that takes a response in the form
-// {"granted": ["public_profile", "email"], "declined": ["user_friends"]}
+// {"public_profile": "granted", "email": "granted, "user_friends": "declined"}
 
 // to request more permissions, call the function requestPermissions, which must be called from a HTML button event handler.
 // the argument is a comma-separated list of permissions like "user_friends,email"
 // you're allowed to re-ask for declined permissions (might only work once though)
+// unclear what happens if you re-ask for permissions which have been granted.
 
 
 // This is called with the results from from FB.getLoginStatus().
@@ -94,13 +95,13 @@ function requestPermissions(permissions) {
 function fbPermissions(callback) {
     FB.api('/me/permissions', function(response) {
         arrayPermissions = response["data"];
-        permissions = {"granted": [], "declined": []};
+        permissions = {};
         for (var i = 0; i < arrayPermissions.length; i++) {
             perm = arrayPermissions[i];
             if (perm["status"] === "granted") {
-                permissions["granted"].push(perm["permission"]);
+                permissions[perm["permission"]] = "granted";
             } else {
-                permissions["declined"].push(perm["permission"]);
+                permissions[perm["permission"]] = "declined";
             }
         }
         callback(permissions);
