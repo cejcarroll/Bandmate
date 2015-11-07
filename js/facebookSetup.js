@@ -6,6 +6,17 @@
 
 // with this div to show status:
 // <div id="status"></div>
+// also check the javascript console for the data returned by the server.
+
+// to logout, call fbLogout(callback) with some callback function that takes a response parameter.
+
+// to find permissions granted, call fbPermissions(callback) with some callback function that takes a response in the form
+// {"granted": ["public_profile", "email"], "declined": ["user_friends"]}
+
+// to request more permissions, call the function requestPermissions, which must be called from a HTML button event handler.
+// the argument is a comma-separated list of permissions like "user_friends,email"
+// you're allowed to re-ask for declined permissions (might only work once though)
+
 
 // This is called with the results from from FB.getLoginStatus().
 function statusChangeCallback(response) {
@@ -66,6 +77,36 @@ window.fbAsyncInit = function() {
     
 };
 
+function fbLogout(callback) {
+    // logs the user out of the app and facebook
+    FB.logout(function(response) {
+        callback(response);
+        // Person is now logged out
+    });
+}
+
+function requestPermissions(permissions) {
+    FB.login(function(response) {
+        console.log(response);
+    }, {scope: permissions, auth_type: 'rerequest'});
+}
+
+function fbPermissions(callback) {
+    FB.api('/me/permissions', function(response) {
+        arrayPermissions = response["data"];
+        permissions = {"granted": [], "declined": []};
+        for (var i = 0; i < arrayPermissions.length; i++) {
+            perm = arrayPermissions[i];
+            if (perm["status"] === "granted") {
+                permissions["granted"].push(perm["permission"]);
+            } else {
+                permissions["declined"].push(perm["permission"]);
+            }
+        }
+        callback(permissions);
+    });
+}
+
 // Load the SDK asynchronously
 (function(d, s, id) {
  var js, fjs = d.getElementsByTagName(s)[0];
@@ -81,6 +122,8 @@ function testAPI() {
     console.log('Welcome!  Fetching your information.... ');
     FB.api('/me', function(response) {
            console.log('Successful login for: ' + response.name);
+           console.log('full data:');
+           console.log(response);
            document.getElementById('status').innerHTML =
            'Thanks for logging in, ' + response.name + '!';
            });
