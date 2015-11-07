@@ -13,7 +13,7 @@
 
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet"> <!--bootstrap hello -->
 
-    <link href="home.css" rel="stylesheet"> <!--eventually this will exist -->
+    <link href="../css/form.css" rel="stylesheet"> <!--eventually this will exist -->
 
   </head>
 
@@ -21,24 +21,18 @@
 
     <div class="site-wrapper">
 
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Bandmate</h3> <!-- if we get a logo -->
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li><a href="./main.html">Home</a></li>
-                  <li class="active"><a href="#">Sign Up</a></li>
-                  <li><a href="#">Login</a></li>
+      <div id="masthead">  <!--if we get a logo -->
+                <ul class="masthead-nav">
+                  <li id="brand-nav">Bandmate</h3> 
+                  <li><a href="./logged_in_home.html">Home</a></li>
+                  <!--<li><a href="./main.html">Cover</a></li> -->
+                  <li><a href="./about.html">About Us</a></li>
+                  <li class="active"><a href="#">Your Profile</a></li>
+                  <li><a href="./logout.html">Logout</a></li>   <!--login action required --> 
                 </ul>
-              </nav>
-            </div>
-          </div>
+        </div>
 
-          <div class="inner cover">
+          <div class="cover">
             <h1 class="cover-heading">Sign up</h1>
             <p class="lead">Define your style.</p>
             <p class="lead">Help our algorithms get a better sense of your musical tastes. Give us a few details.</p>
@@ -72,13 +66,13 @@
           </ul>
           Top 3 Favorite Musical Spirit Animals:<br>
           1)
-          <input type="text" name="first_artist" value="Coldplay">
+          <input type="text" name="first_artist">
           <br>
           2)
-          <input type="text" name="second_artist" value="Adele">
+          <input type="text" name="second_artist">
           <br>
           3)
-          <input type="text" name="third_artist" value="Hozier">
+          <input type="text" name="third_artist">
           <br>
           <input type="submit" value="Submit">
           </form>
