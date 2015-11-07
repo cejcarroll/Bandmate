@@ -108,6 +108,23 @@ function fbPermissions(callback) {
     });
 }
 
+// music and profile picture might actually require /ser-id/ instead of /me/
+function fbMusic(callback) {
+    FB.api('/me/music', function(response) {
+        // look in created_time field for the time the user liked the page
+        callback(response);
+    });
+}
+
+function fbProfilePic(callback) {
+    FB.api('/me/picture', function(response) {
+        if (response && !response.error) {
+            callback(response);
+        }
+    });
+}
+
+
 // Load the SDK asynchronously
 (function(d, s, id) {
  var js, fjs = d.getElementsByTagName(s)[0];
