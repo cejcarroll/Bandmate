@@ -48,6 +48,10 @@ body
 	background-size: cover;
     background-repeat: no-repeat;
 }
+.highlight
+{
+	color: #727322;
+}
 
 #aboutus
 {
