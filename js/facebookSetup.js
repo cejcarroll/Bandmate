@@ -128,4 +128,5 @@ function testAPI() {
            document.getElementById('status').innerHTML =
            'Thanks for logging in, ' + response.name + '!';
            });
+    window.location = "../html/logged_in_home.html";
 }

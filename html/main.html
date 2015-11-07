@@ -18,6 +18,7 @@
   </head>
 
   <body>
+  <script type="text/javascript" src="../js/facebookSetup.js"></script>
 
     <div class="site-wrapper">
 
@@ -37,7 +38,7 @@
             <!-- <p id="lead2">Find your musical soul mate.</p> --> 
             <p id="lead3">Collaborate with musicians around the world.</p>
             <a href="./about.html" id="learn" class="btn-default">Learn More</a>
-            </p>
+            <fb:login-button scope="public_profile,email" class="btn-default" onlogin="checkLoginState();">Login</fb:login-button>
           </div>
 
           <!-- <div class="mastfoot">
