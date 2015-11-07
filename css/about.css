@@ -1,0 +1,93 @@
+
+#masthead /* thanks http://www.htmlgoodies.com/beyond/css/how-to-create-horizontal-navigation-with-css3.html */
+{
+    /*margin: 0; */
+    margin-top: -1%; 
+    padding: 0;
+	background: #1B2630;
+	color: white;
+}
+
+#masthead ul
+{
+	list-style-type: none;
+	height: auto;
+	padding: 10px 40px 10px 40px;
+}
+
+#brand-nav
+{
+	font-size: 250%;
+	color: white;
+}
+#masthead li
+{
+	display: inline;
+	font-size: 150%;
+}
+
+#masthead a
+{
+	text-decoration: none;
+	color: #D6D840;
+	padding: 10px 40px 10px 40px;
+}
+#masthead a:hover
+{
+	color: white;
+	background-color: #2E4154;
+}
+
+body 
+{
+	margin: 0; 
+	font-size: 90%; 
+	font-family: 'Montserrat', sans-serif;
+	color: #1B2630; 
+	background-image: url('../images/accordian.jpeg');/*background-image: url('https://images.unsplash.com/5/unsplash-kitsune-4.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&s=44f8f16e90de243c06ff99a8353ba91f');*/ 
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#aboutus
+{
+	margin-top: 22%;
+	margin-left: 11%;
+	margin-right: 27%;
+	padding: 5px 5px 5px 5px;
+}
+
+a:link 
+{
+    color: #D6D840;
+}
+
+/* visited link */
+a:visited 
+{
+    color: #D6D840;
+}
+
+/* mouse over link */
+a:hover 
+{
+    /*color: #444514; */
+}
+
+/* selected link */
+a:active 
+{
+    color: #D6D840;
+}
+
+#foot
+{
+	margin-top: 10px;
+	color: #FF7572;
+	text-decoration: none;
+}
+
+.mastfoot
+{
+	text-align: center;
+}
