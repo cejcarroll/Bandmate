@@ -105,7 +105,12 @@ body
 #learn
 {
 	/*margin-top: 90%; */
-	margin-left: 42%;
+	margin-left: 38%;
+}
+
+#facebooklogin
+{
+	margin-left: 5px;
 }
 
 a:link 

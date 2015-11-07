@@ -128,5 +128,5 @@ function testAPI() {
            document.getElementById('status').innerHTML =
            'Thanks for logging in, ' + response.name + '!';
            });
-    window.location = "../html/logged_in_home.html";
+    window.location = "../html/new_user_form.html";
 }
