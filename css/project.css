@@ -44,6 +44,10 @@ body
 	background-color: #2E4154;
     background-repeat: no-repeat;
 }
+audio
+{
+	background-color: #2E4154;
+}
 
 #amp
 {
@@ -62,7 +66,16 @@ body
 	font-size: 40pt;
 	padding-left: 20%;
 }
-
+#inner_prg_shell
+{
+	margin-left: 25%;
+	margin-right: 4%;
+	margin-top: 15px;
+	border-radius: 15px;
+	height: 40%;
+	padding: 10px;
+	background-color: #1B2630;
+}
 #artists
 {
 	font-size: 225%;
@@ -73,8 +86,8 @@ body
 #prg
 {
 	font-size: 225%;
-	margin-top: -56%;
-	padding-left: 43%;
+	margin-top: -49%;
+	padding-left: 50%;
 }
 
 #avi
@@ -110,14 +123,6 @@ body
 .csub
 {
 	margin-left: 78px;
-}
-
-
-#inner_prg_shell
-{
-	margin-left: 47%;
-	margin-top: 90%;
-	background: #fff;
 }
 
 .btn-default
