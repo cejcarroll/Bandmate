@@ -35,7 +35,6 @@
 	color: white;
 	background-color: #2E4154;
 }
-
 body 
 {
 	font-size: 90%; 
@@ -44,10 +43,15 @@ body
 	background-color: #2E4154;
     background-repeat: no-repeat;
 }
+.nox
+{
+	color: #1B2630;
+}
 audio
 {
 	background-color: #2E4154;
 	display: inline;
+	padding-top: 20px;
 }
 
 #amp
@@ -70,7 +74,29 @@ audio
 
 #avi_voice
 {
-	margin-right: -4%;
+	padding-right: 4%;
+	text-align: right;
+}
+#clur_voice
+{
+	margin-right: 4%;
+}
+#mv
+{
+	margin-left: 0%;
+}
+#fv
+{
+	margin-left: 2%;
+	margin-bottom: 15px;
+}
+#ad
+{
+	margin-left: 29%;
+}
+#cc
+{
+	margin-left: 23%;
 }
 
 .one
@@ -102,6 +128,7 @@ audio
 	border-radius: 15px;
 	height: 40%;
 	background-color: #1B2630;
+	padding: 10px;
 }
 
 .title
@@ -165,6 +192,11 @@ audio
 {
 	margin-left: 78px;
 }
+#learn
+{
+	margin-top: 20%;
+	margin-left: 55%;
+}
 
 .btn-default
 {
@@ -179,12 +211,6 @@ audio
 	text-decoration: none;
 }
 
-#learn
-{
-	margin-top: 100%;
-	margin-left: 55%;
-
-}
 
 .btn-default:hover
 {
