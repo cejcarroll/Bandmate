@@ -47,6 +47,7 @@ body
 audio
 {
 	background-color: #2E4154;
+	display: inline;
 }
 
 #amp
@@ -66,10 +67,25 @@ audio
 	font-size: 40pt;
 	padding-left: 20%;
 }
+
+#avi_voice
+{
+	margin-right: -4%;
+}
+
+.one
+{
+	padding-left: 8%;
+}
+
+.two
+{
+	padding-left: 5%;
+}
 .left
 {
 	padding-left: 10%;
-}
+} 
 .mid
 {
 	padding-left: 30%;
@@ -111,7 +127,7 @@ audio
 {
 	font-size: 225%;
 	margin-top: -49%;
-	padding-left: 50%;
+	padding-left: 52%;
 }
 
 #avi
@@ -140,6 +156,7 @@ audio
 	margin-left: 5%;
 	border-radius: 140px;
 }
+
 .asub
 {
 	margin-left: 42px;
@@ -151,7 +168,7 @@ audio
 
 .btn-default
 {
-	/*margin: 0 auto; */
+	margin: 0 auto;
 	text-align: center;
 	font-size: 175%;
 	background-color: #1B2630;
@@ -160,6 +177,13 @@ audio
 	/*border: 3px solid #D6D840; */
 	border-radius: 25px;
 	text-decoration: none;
+}
+
+#learn
+{
+	margin-top: 100%;
+	margin-left: 55%;
+
 }
 
 .btn-default:hover
