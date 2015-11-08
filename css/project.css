@@ -66,6 +66,18 @@ audio
 	font-size: 40pt;
 	padding-left: 20%;
 }
+.left
+{
+	padding-left: 10%;
+}
+.mid
+{
+	padding-left: 30%;
+}
+.right
+{
+	padding-left: 30%;
+}
 #inner_prg_shell
 {
 	margin-left: 25%;
@@ -73,7 +85,19 @@ audio
 	margin-top: 15px;
 	border-radius: 15px;
 	height: 40%;
+	background-color: #1B2630;
+}
+
+.title
+{
 	padding: 10px;
+	color: #D6D840;
+	font-size: 25px;
+}
+
+audio
+{
+	padding: 5px;
 	background-color: #1B2630;
 }
 #artists
