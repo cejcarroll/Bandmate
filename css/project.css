@@ -47,6 +47,10 @@ body
 {
 	color: #1B2630;
 }
+.noxy
+{
+	color: #2E4154;
+}
 audio
 {
 	background-color: #2E4154;
@@ -137,11 +141,25 @@ audio
 	color: #D6D840;
 	font-size: 25px;
 }
-
+#last
+{
+	margin-left: -5%;
+}
+#end
+{
+	margin-left: 47%;
+	font-size: 150%;
+	padding: 15px;
+}
+#end:h2
+{
+	padding-left: 20%
+}
 audio
 {
 	padding: 5px;
 	background-color: #1B2630;
+	border-radius: 10px;
 }
 #artists
 {
