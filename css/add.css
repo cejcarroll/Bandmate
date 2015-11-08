@@ -1,0 +1,284 @@
+#masthead /* thanks http://www.htmlgoodies.com/beyond/css/how-to-create-horizontal-navigation-with-css3.html */
+{
+    /*margin: 0; */
+    margin-top: -1%; 
+    padding: 0;
+	background: #1B2630;
+	color: white;
+}
+
+#masthead ul
+{
+	list-style-type: none;
+	height: auto;
+	padding: 10px 40px 10px 40px;
+}
+#brand-nav
+{
+	font-size: 250%;
+	color: white;
+}
+#masthead li
+{
+	display: inline;
+	font-size: 150%;
+}
+
+#masthead a
+{
+	text-decoration: none;
+	color: #D6D840;
+	padding: 10px 40px 10px 40px;
+}
+#masthead a:hover
+{
+	color: white;
+	background-color: #2E4154;
+}
+body 
+{
+	font-size: 90%; 
+	font-family: 'Montserrat', sans-serif;
+	color: white; 
+	background-color: #2E4154;
+    background-repeat: no-repeat;
+}
+.nox
+{
+	color: #1B2630;
+}
+.noxy
+{
+	color: #2E4154;
+}
+audio
+{
+	background-color: #2E4154;
+	display: inline;
+	padding-top: 20px;
+}
+
+#amp
+{
+	margin-top: -1%;
+	width: 100%;
+	height: auto;
+}
+.cover
+{
+	margin-top: -39%;
+	margin-left: -1%;
+	padding-bottom: 10px;
+}
+.cover-heading
+{
+	font-size: 40pt;
+	padding-left: 3%;
+	padding-top: 14.5%;
+	color: #1B2630;
+}
+#plzadd
+{
+	margin-left: 45%;
+	margin-right: 30%;
+	margin-top: -14%;
+	border-radius: 15px;
+	height: 40%;
+	background-color: #1B2630;
+	padding: 10px 10px 10px 80px;
+}
+
+option
+{
+	padding: 15pt;
+}
+
+.title
+{
+	padding: 10px;
+	color: #D6D840;
+	font-size: 25px;
+}
+#last
+{
+	margin-left: -5%;
+}
+#end
+{
+	margin-left: 47%;
+	font-size: 150%;
+	padding: 15px;
+}
+#end:h2
+{
+	padding-left: 20%
+}
+audio
+{
+	padding: 5px;
+	background-color: #1B2630;
+	border-radius: 10px;
+}
+#artists
+{
+	font-size: 225%;
+	padding-top: 28%;
+	padding-left: 9%;
+}
+#addit
+{
+	margin-top: -15%;
+	padding: 15px;
+}
+#prg
+{
+	font-size: 225%;
+	margin-top: -49%;
+	padding-left: 52%;
+}
+
+#avi
+{
+	margin-left: -41%;
+	padding-top: 10px;
+	padding-left: 50%;
+}
+#claire
+{
+	margin-left: -40.75%;
+	padding-top: 10px;
+	padding-left: 50%;
+}
+
+#admin
+{
+	width: 200px;
+	height: auto;
+	margin-left: 5%;
+	margin-top: 2%;
+	border-radius: 140px;
+}
+#user
+{
+	width: 200px;
+	height: auto;
+	margin-left: 5%;
+	border-radius: 140px;
+}
+
+.asub
+{
+	margin-left: 22px;
+}
+.csub
+{
+	margin-left: -8px;
+}
+.ssub
+{
+	margin-left: 21px;
+}
+#learn
+{
+	margin-top: 20%;
+	margin-left: 55%;
+}
+
+.btn-default
+{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 175%;
+	background-color: #1B2630;
+	/* opacity: .4; */
+	padding: 10px;
+	/*border: 3px solid #D6D840; */
+	border-radius: 25px;
+	text-decoration: none;
+}
+
+
+.btn-default:hover
+{
+	background-color: rgba(0,0,0,.30);
+}
+
+.highlight
+{
+	color: #D6D840;
+	font-size: 25px;
+}
+
+/*#you
+{
+	font-size: 40px;
+	padding-left: 30%;
+	margin-top: -15%;
+	padding-bottom: 2%;
+} */
+
+h2
+{
+	margin-bottom: -5px;
+	color: #FF7572;
+}
+
+#content
+{
+	font-size: 30px;
+	padding-left: 25%;
+	margin-top: -20%;
+	padding-bottom: 2%;
+}
+
+
+#friends
+{
+	font-size: 30px;
+	padding-left: 25%;
+	margin-top: -4%;
+	padding-bottom: 2%;
+}
+#projects
+{
+	font-size: 30px;
+	padding-left: 25%;
+	margin-top: -1%;
+	padding-bottom: 2%;
+}
+
+a:link 
+{
+    color: #D6D840;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited 
+{
+    color: #D6D840;
+}
+
+/* mouse over link */
+a:hover 
+{
+    /*color: #444514; */
+}
+
+/* selected link */
+a:active 
+{
+    color: #D6D840;
+}
+
+#foot
+{
+	margin-top: 10px;
+	color: #FF7572;
+	text-decoration: none;
+}
+
+.mastfoot
+{
+	text-align: center;
+}
