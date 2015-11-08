@@ -70,6 +70,13 @@ body
 	padding-left: 9%;
 }
 
+#prg
+{
+	font-size: 225%;
+	margin-top: -56%;
+	padding-left: 43%;
+}
+
 #avi
 {
 	margin-left: -42%;
@@ -105,16 +112,12 @@ body
 	margin-left: 78px;
 }
 
-#spotify
-{
-	margin-left: 73%;
-	margin-top: -27%;
-}
 
-#edit
+#inner_prg_shell
 {
 	margin-left: 47%;
-	margin-top: 70%;
+	margin-top: 90%;
+	background: #fff;
 }
 
 .btn-default
