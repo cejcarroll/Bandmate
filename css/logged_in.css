@@ -169,7 +169,13 @@ table:a
 	/*margin-top: 90%; */
 	margin-left: 42%;
 }
-
+#band
+{
+	font-size: 90%; 
+	font-family: 'Montserrat', sans-serif;
+	color: white; 
+	text-decoration: none;
+}
 a:link 
 {
     color: #D6D840;
